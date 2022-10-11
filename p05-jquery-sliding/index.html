@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Sliding</title>
+
+    <style> 
+body{
+    font-family: 'Arial', sans-serif;
+}
+.huraaa{
+    background-color: hotpink;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.huraaa:hover{
+    background-color: green;
+}
+
+.subkon{
+    padding: 20px;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.kertas{
+    margin-left: 100px;
+    margin-right: 105px;
+}
+
+.awaas{
+    text-align: center;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="kertas">
+        <div class="awaas">
+            <div class="huraaa">Efek Slide</div>
+        </div>
+        <div class="subkon">Pada web biasa atau multi page jika kita melakukan navigasi kehalaman lain, maka browser akan memuat ulang seluruh halaman setelah melakukan request ke server. Berbeda dengan web Single Web Application, ketika kita melakukan navigasi atau berpindah kehalaman lain, maka javascript akan melakukan fetching ke server dan mengganti tampilan ke navigasi lain tanpa perlu browser memuat ulang seluruh halaman.</div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script> $(document).ready(function(){
+    $(".huraaa").click(function(){
+        $(".subkon").slideToggle("fast");
+    });
+});
+</script>
+  </body>
+</html>

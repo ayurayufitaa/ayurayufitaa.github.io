@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<body>
+<style>
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Arial', sans-serif;
+}
+
+}
+.kuku .hidup{
+    font-weight: bold;
+}
+
+.halu{
+    background-color: pink;
+    padding: 10px;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 10px;
+    text-align: justify;
+}
+.halu-kuku{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.kuku{
+    position: fixed;
+    background-color: deeppink;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.1s ease-in-out;
+    box-shadow:1px 1px 10px;
+    z-index: 99;
+}
+.kuku .halu-kuku{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.1s ease-in-out;
+}
+
+.kuku ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.kuku a{
+    color: black;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.kuku a:hover{
+    color: black;
+}
+
+.tampilan{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+.tampilan span {
+    font-size: 35px;
+    color: crimson;
+    text-shadow: white;
+}
+
+</style>
+
+    <nav class="kuku">
+    <div class="halu-kuku">
+      <ul>
+       <li class="hidup" id="nav_halu1"><a href="#" style="font-size: 25px;">Home</a></li>
+       <li class="mati" id="nav_halu2"><a href="#" style="font-size: 25px;">Produk</a></li>
+       <li class="mati" id="nav_halu3"><a href="#" style="font-size: 25px;">Kontak</a></li>
+
+      </ul>
+     </div>
+    </nav>
+
+    <br><br><br>
+
+    <div class="halu" id="halu1">
+      <br>
+      <h2>Home</h2>
+        <p>Sed mollit commodo excepteur nulla exercitation et eu sunt aliqua aliquip anim in sint sint exercitation deserunt.</p>
+    </div>
+    <div class="halu" id="halu2">
+        <br>
+      <h2>Produk</h2>
+        <p>Tempor exercitation ea minim ut consequat excepteur nostrud proident ex pariatur. Dolore minim do mollit veniam non laborum ut id voluptate. Nisi velit commodo minim sed pariatur enim sint laborum labore laborum et reprehenderit sed anim aliqua deserunt culpa.</p>   
+    </div>
+    <div class="halu" id="halu3">
+        <br>
+      <h2>Kontak</h2>
+        <p>Id pariatur anim amet deserunt anim amet consectetur ex consequat aute mollit culpa ut occaecat do. Lorem ipsum aliqua officia voluptate est quis adipisicing aliquip deserunt culpa laborum aute id duis.</p>   
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="ayura.js"></script>
+</body>
+</html>
