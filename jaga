@@ -1,0 +1,63 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayura Yufita</title>
+    <link rel="stylesheet" href="ayuracss.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="ayura.js"></script>
+
+</head>
+<body>
+    <div class="tuti">
+        <div class="ayura">
+            <h2 class="aulia"></h2>    
+            <p> Nama Saya Ayura Yufita</p><p>NIM: 41215306</p><p>KELAS :TI_2021_KIP_P7</p>
+
+            <section style="font-size: 25px;">
+  
+        </div>
+        <div class="penting" align="center">
+            <span class="utama aktif" id="utama_3">Hubungin Saya</span>
+            <span class="utama " id="utama_1">Tugas Saya</span>
+            <span href="#" class="tombol" class="utama" id="utama_3"></span>
+            <div class="dipilihnya">
+            <div class="oio">
+        </div></div>
+        </div>
+
+        <div class="milih" id="geser_2" style="text-align: center;">
+
+            </section> 
+            </ul>
+            <span class="x"></span>
+        </div>
+
+        <div class="kontak" id="geser_1" style="display: none;">
+            <br>
+            <h2 class="aulia" style="">Chalange</h2>
+            <p>Ini adalah tugas yang sudah saya kerjakan :</p>
+            <ul>
+                <li><a style="color: black;" href="../p03/index.html">P03 HTML Table Sederhana</a></li>
+                <li><a style="color: black;" href="../p04css-basic/index.html">P04 Formulir Level #2 Basic-CSS HTML Form</a></li>
+                <li><a style="color: black;" href="../p05-jquery-delete/index.html">P05 JQuery FadeOut When Delete</a></li>
+                <li><a style="color: black;" href="../p06-spa-menu/index.html">P06 JQuery Add/Remove Class for SPA Menu</a></li>
+            </ul>
+        </div>
+        <div class="geser" id="geser_3" style="display: none;">
+            <br>
+            <h2 class="aulia" align="center" style="font-size: 20px;">Kontak</h2>
+                        <img src="img/ayura.png" style="width: 40%">
+
+            <p>Silahkan Hub :</p>
+            <ul>
+                <li>Email: <a href="mailto:ayurayufita1413@gmail.com">ayurayufita1413@gmail.com</a>.</li>
+
+            </ul>
+
+        </div>
+        
+       
+            
+
+
+</body></html>
